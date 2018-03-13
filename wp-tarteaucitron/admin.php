@@ -1316,6 +1316,16 @@ function wp_tac_settings_param_fields_val() {
 			'default'		=> true,
 			'type'			=> 'checkbox',
 		),
+		array( /* supprimer le lien vers la source ? */
+			'field_id'		=> 'field-1-8',
+			'param_name'	=> 'bypass', 
+			'label'			=> __( 'bypass for visitor is not in the EU.', 'wp-tac' ), 
+			'field_callbk'	=> 'wp_tac_settings_param_field_callback',
+			'menu_slug'		=> 'wp_tac-plugin',
+			'section_name'	=> 'section-p-1',
+			'default'		=> false,
+			'type'			=> 'checkbox',
+		),
 	);
 	$section_fields = array(
 		'section-p-1'	=> $section_1_fields,

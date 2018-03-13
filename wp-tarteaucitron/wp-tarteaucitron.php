@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: wp-tarteaucitron
-Plugin URI: http://dixit-productions.com
+Plugin URI: https://github.com/romaing/wp-tarteaucitron
 Description: Cookie manager
-Version: 1.0.0
-Author: romain Gires - dixit-productions.com
-Author URI: http://dixit-productions.com
+Version: 1.0.1
+Author: romain Gires
+Author URI: http://romain.gires.net
 Script original : https://opt-out.ferank.eu/
 
 
