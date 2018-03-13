@@ -101,3 +101,4 @@ In PHP for example, you can bypass all the script by setting this var `tarteauci
 [Visit JS tarteaucitron.js installation guide](https://opt-out.ferank.eu/fr/install/)
 
 [Github](https://github.com/AmauriC/tarteaucitron.js/)
+
