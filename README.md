@@ -21,71 +21,72 @@ Bonus:
 
 ## Supported services
 * Advertising network
-  * Amazon
-  * Clicmanager
-  * Criteo
-  * FERank (pub)
-  * Google Adsense
-  * Google Adsense Search (form)
-  * Google Adsense Search (result)
-  * Google Adwords (conversion)
-  * Google Adwords (remarketing)
-  * Pubdirecte
-  * Twenga
-  * vShop
+  * ~~Amazon~~
+  * ~~Clicmanager~~
+  * ~~Criteo~~
+  * ~~FERank (pub)~~
+  * ~~Google Adsense~~
+  * ~~Google Adsense Search (form)~~
+  * ~~Google Adsense Search (result)~~
+  * ~~Google Adwords (conversion)~~
+  * ~~Google Adwords (remarketing)~~
+  * ~~Pubdirecte~~
+  * ~~Twenga~~
+  * ~~vShop~~
 
 * APIs
-  * Google jsapi
-  * Google Maps
-  * Google Tag Manager
-  * Timeline JS
-  * Typekit (adobe)
+  * ~~Google jsapi~~
+  * ~~Google Maps~~
+  * ~~Google Tag Manager~~
+  * ~~Timeline JS~~
+  * ~~Typekit (adobe)~~
 
 * Audience measurement
-  * Alexa
-  * Clicky
-  * Crazyegg
-  * FERank
-  * Get+
+  * ~~Alexa~~
+  * ~~Clicky~~
+  * ~~Crazyegg~~
+  * ~~FERank~~
+  * ~~Get+~~
   * Google Analytics (ga.js)
   * Google Analytics (universal)
-  * StatCounter
-  * VisualRevenue
-  * Xiti
+  * ~~StatCounter~~
+  * ~~VisualRevenue~~
+  * ~~Xiti~~
 
 * Comment
-  * Disqus
-  * Facebook (commentaire)
+  * ~~Disqus~~
+  * ~~Facebook (commentaire)~~
 
 * Social network
-  * AddThis
-  * AddToAny (feed)
-  * AddToAny (share)
-  * eKomi
-  * Facebook
-  * Facebook (like box)
-  * Google+
-  * Google+ (badge)
-  * Linkedin
-  * Pinterest
-  * Shareaholic
-  * ShareThis
-  * Twitter
-  * Twitter (cards)
-  * Twitter (timelines)
+  * ~~AddThis~~
+  * ~~AddToAny (feed)~~
+  * ~~AddToAny (share)~~
+  * ~~eKomi~~
+  * ~~Facebook~~
+  * ~~Facebook (like box)~~
+  * ~~Google+~~
+  * ~~Google+ (badge)~~
+  * ~~Linkedin~~
+  * ~~Pinterest~~
+  * ~~Shareaholic~~
+  * ~~ShareThis~~
+  * ~~Twitter~~
+  * ~~Twitter (cards)~~
+  * ~~Twitter (timelines)~~
 
 * Support
-  * UserVoice
-  * Zopim
+  * ~~UserVoice~~
+  * ~~Zopim~~
 
 * Video
-  * Calameo
-  * Dailymotion
-  * Prezi
-  * SlideShare
+  * ~~Calameo~~
+  * ~~Dailymotion~~
+  * ~~Prezi~~
+  * ~~SlideShare~~
   * Vimeo
   * Youtube
 
+**Services "barred" are not yet supported by this Wordpress plugin
 
 ## Visitors outside the EU
 In PHP for example, you can bypass all the script by setting this var `tarteaucitron.user.bypass = true;` if the visitor is not in the EU.
