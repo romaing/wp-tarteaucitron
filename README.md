@@ -22,70 +22,77 @@ Bonus:
 
 ## Supported services
 * Advertising network
-  * ~~Amazon~~
-  * ~~Clicmanager~~
-  * ~~Criteo~~
-  * ~~FERank (pub)~~
-  * ~~Google Adsense~~
-  * ~~Google Adsense Search (form)~~
-  * ~~Google Adsense Search (result)~~
-  * ~~Google Adwords (conversion)~~
-  * ~~Google Adwords (remarketing)~~
-  * ~~Pubdirecte~~
-  * ~~Twenga~~
-  * ~~vShop~~
+  * todo
+    * ~~Amazon~~
+    * ~~Clicmanager~~
+    * ~~Criteo~~
+    * ~~FERank (pub)~~
+    * ~~Google Adsense~~
+    * ~~Google Adsense Search (form)~~
+    * ~~Google Adsense Search (result)~~
+    * ~~Google Adwords (conversion)~~
+    * ~~Google Adwords (remarketing)~~
+    * ~~Pubdirecte~~
+    * ~~Twenga~~
+    * ~~vShop~~
 
 * APIs
-  * ~~Google jsapi~~
-  * ~~Google Maps~~
-  * ~~Google Tag Manager~~
-  * ~~Timeline JS~~
-  * ~~Typekit (adobe)~~
+  * todo
+    * ~~Google jsapi~~
+    * ~~Google Maps~~
+    * ~~Google Tag Manager~~
+    * ~~Timeline JS~~
+    * ~~Typekit (adobe)~~
 
 * Audience measurement
-  * ~~Alexa~~
-  * ~~Clicky~~
-  * ~~Crazyegg~~
-  * ~~FERank~~
-  * ~~Get+~~
   * Google Analytics (ga.js)
   * Google Analytics (universal)
-  * ~~StatCounter~~
-  * ~~VisualRevenue~~
-  * ~~Xiti~~
+  * todo
+    * ~~Alexa~~
+    * ~~Clicky~~
+    * ~~Crazyegg~~
+    * ~~FERank~~
+    * ~~Get+~~
+    * ~~StatCounter~~
+    * ~~VisualRevenue~~
+    * ~~Xiti~~
 
 * Comment
-  * ~~Disqus~~
-  * ~~Facebook (commentaire)~~
+  * todo
+    * ~~Disqus~~
+    * ~~Facebook (commentaire)~~
 
 * Social network
-  * ~~AddThis~~
-  * ~~AddToAny (feed)~~
-  * ~~AddToAny (share)~~
-  * ~~eKomi~~
-  * ~~Facebook~~
-  * ~~Facebook (like box)~~
-  * ~~Google+~~
-  * ~~Google+ (badge)~~
-  * ~~Linkedin~~
-  * ~~Pinterest~~
-  * ~~Shareaholic~~
-  * ~~ShareThis~~
-  * ~~Twitter~~
-  * ~~Twitter (cards)~~
-  * ~~Twitter (timelines)~~
+  * todo
+    * ~~AddThis~~
+    * ~~AddToAny (feed)~~
+    * ~~AddToAny (share)~~
+    * ~~eKomi~~
+    * ~~Facebook~~
+    * ~~Facebook (like box)~~
+    * ~~Google+~~
+    * ~~Google+ (badge)~~
+    * ~~Linkedin~~
+    * ~~Pinterest~~
+    * ~~Shareaholic~~
+    * ~~ShareThis~~
+    * ~~Twitter~~
+    * ~~Twitter (cards)~~
+    * ~~Twitter (timelines)~~
 
 * Support
-  * ~~UserVoice~~
-  * ~~Zopim~~
+  * todo
+    * ~~UserVoice~~
+    * ~~Zopim~~
 
 * Video
-  * ~~Calameo~~
-  * ~~Dailymotion~~
-  * ~~Prezi~~
-  * ~~SlideShare~~
   * Vimeo
   * Youtube
+  * todo
+    * ~~Calameo~~
+    * ~~Dailymotion~~
+    * ~~Prezi~~
+    * ~~SlideShare~~
 
 **Services "barred" are not yet supported by this Wordpress plugin
 
