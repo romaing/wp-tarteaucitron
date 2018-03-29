@@ -1,0 +1,38 @@
+Plugin Name: wp-tarteaucitron
+Plugin URI: https://github.com/romaing/wp-tarteaucitron
+Author: romain Gires
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+= 1.0.2 =
+
+* Added: 
+    * vimeo
+
+
+= 1.0.2 =
+* Fixed:
+    * bug youtube
+
+= 1.0.2 =
+
+* New: 
+    * First release
+
+* Todo: 
+    * 70 others cookie
+
+
+
+
+----------------------------------------------------------------------
+= version =
+
+* Update:
+    * 
+
+* Fixed:
+* New:  
+* Added: 

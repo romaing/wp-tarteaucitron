@@ -1,5 +1,6 @@
 wp-tarteaucitron
 ================
+
 WP tarteaucitron wordpress plugin for cookie management
 
 Comply to the european cookie law is simple with the french *tarte au citron*.

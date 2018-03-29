@@ -210,6 +210,7 @@ function wp_tac_front_init() {
 			if ($enqueue = $value['enqueue']) {
 				wp_dequeue_script( $enqueue );
 			}
+
 			if (isset($value['job']) && $job = $value['job']) {
 				$tac_user = "";
 
@@ -225,16 +226,20 @@ function wp_tac_front_init() {
 
 								if($job=='youtube'){
 									global $wp_embed;
-									$wp_embed->arr_optionnal = $arr_optionnal;
-									$wp_embed->arr_search = $arr_search;
+									$wp_embed->arr_optionnal[$job] = $arr_optionnal;
+									$wp_embed->arr_search[$job] = $arr_search;
 
-									function wrap_embed_with_div($html, $url, $attr) {
+									function wrap_youtube_with_div($html, $url, $attr) {
 										global $wp_embed;
-
-										$pattern = $wp_embed->arr_search['ereg'];
-										$subject = $wp_embed->arr_search['replace'];
+										$job='youtube';
+										$pattern = $wp_embed->arr_search[$job]['ereg'];
+										$subject = $wp_embed->arr_search[$job]['replace'];
 
 										preg_match($pattern, $html, $matches);
+
+										if(empty($matches[3])) {
+											return $html;
+										}
 
 										$video_id		= basename($matches[3]);
 
@@ -254,9 +259,48 @@ function wp_tac_front_init() {
 										return $html;
 
 									}
-									add_filter('embed_oembed_html', 'wrap_embed_with_div', 100, 3);
-									add_filter('oembed_result', 'wrap_embed_with_div', 100, 3);
+									add_filter('embed_oembed_html', 'wrap_youtube_with_div', 100, 3);
+									add_filter('oembed_result', 'wrap_youtube_with_div', 100, 3);
 								}
+								else if($job == 'vimeo'){
+									global $wp_embed;
+									$wp_embed->arr_optionnal[$job] = $arr_optionnal;
+									$wp_embed->arr_search[$job] = $arr_search;
+
+									function wrap_vimeo_with_div($html, $url, $attr) {
+										global $wp_embed;
+										$job='vimeo';
+
+										$pattern = $wp_embed->arr_search[$job]['ereg'];
+										$subject = $wp_embed->arr_search[$job]['replace'];
+
+										preg_match($pattern, $html, $matches);
+
+										if(empty($matches[1])) {
+											return $html;
+										}
+
+										$video_id		= basename($matches[1]);
+
+										// bug VC lecteur video
+										// 100% ecrit 1060
+										//$width			= $matches[2] ;
+										//$height			= $matches[3] ;
+										$width			= '100%' ;
+										$height			= '100%' ;
+
+										$search	= array('$video_id', '$width', '$height');
+										$replace = array( $video_id,	$width,	$height);
+
+										$html = str_replace($search, $replace, $subject);
+										return $html;
+
+									}
+									add_filter('embed_oembed_html', 'wrap_vimeo_with_div', 100, 3);
+									add_filter('oembed_result', 'wrap_vimeo_with_div', 100, 3);
+								}
+
+
 //									if($job=='googlemaps'){
 //										global $post_map;
 //										$post_map->arr_optionnal = $arr_optionnal;
@@ -1096,6 +1140,12 @@ function wp_tac_settings_fields_val() {
 			//'enqueue'		=> array( 'vimeo', 'mediaelement-vimeo' ),
 			'enqueue'		=> 'mediaelement-vimeo',
 			'marqueur'		=> '',
+			'search'		=> array(
+				'ereg'			=> '~.* .*src=".*vimeo\.com\/video\/(.*)" width="([[:digit:]]*)" .*height="([[:digit:]]*)".*~',
+				'replace'		=> '<div class="vimeo_player" videoID="$video_id" width="$width" height="$height"></div>',
+			),
+			'optionnal'		=> array(
+			),
 			'jobuser'		=> '',
 			'placeholder'	=> 'ID Vidéo',
 		),
@@ -1112,7 +1162,7 @@ function wp_tac_settings_fields_val() {
 			'enqueue'		=> '',
 			'marqueur'		=> '',
 			'search'		=> array(
-				'ereg'			=> '~.* width="(.*)".*height="(.*)".*src="(.*)\?~',
+				'ereg'			=> '~.* width="(.*)".*height="(.*)" .*src="(.*youtu.*).*\?~',
 				'replace'		=> '<div class="youtube_player" videoID="$video_id" width="$width" height="$height" theme="$theme" rel="$rel" controls="$controls" showinfo="$showinfo" autoplay="$autoplay"></div>',
 			),
 			'optionnal'		=> array(

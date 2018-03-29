@@ -3,7 +3,7 @@
 Plugin Name: wp-tarteaucitron
 Plugin URI: https://github.com/romaing/wp-tarteaucitron
 Description: Cookie manager
-Version: 1.0.1
+Version: 1.0.2
 Author: romain Gires
 Author URI: http://romain.gires.net
 Script original : https://opt-out.ferank.eu/
