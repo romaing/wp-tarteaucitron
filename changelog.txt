@@ -9,7 +9,7 @@ Change Log:
 = 1.0.2 =
 
 * Added: 
-    * vimeo
+    * Add vimeo ereg
 
 
 = 1.0.2 =
