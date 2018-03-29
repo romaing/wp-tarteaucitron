@@ -1,7 +1,7 @@
 wp-tarteaucitron
 ================
 
-WP tarteaucitron wordpress plugin for cookie management
+WP tarteaucitron wordpress plugin for cookie management  (demo http://www.vianova-systems.com/)
 
 Comply to the european cookie law is simple with the french *tarte au citron*.
 The plugin allows to integrate the javascript tarteaucitron.js in wordpress proposing an admin interface and management in front site. The plugin allows you to choose the cookies that you propose to your users
