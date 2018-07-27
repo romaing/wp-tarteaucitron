@@ -49,6 +49,7 @@ Bonus:
   * ~~FERank~~
   * ~~Get+~~
   * Google Analytics (ga.js)
+  * Google Analytics (gTag.js)
   * Google Analytics (universal)
   * ~~StatCounter~~
   * ~~VisualRevenue~~
