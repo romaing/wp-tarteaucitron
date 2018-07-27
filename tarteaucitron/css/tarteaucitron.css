@@ -543,3 +543,7 @@ div.amazon_product {
     height:240px;
     width:120px;
 }
+.vc_col-sm-6 .youtube_player{
+    max-width:400px;
+    max-height:220px;
+}

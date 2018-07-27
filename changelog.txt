@@ -2,17 +2,28 @@ Plugin Name: wp-tarteaucitron
 Plugin URI: https://github.com/romaing/wp-tarteaucitron
 Author: romain Gires
 
+
+pour ouvrir la popup
+<a href="javascript:tarteaucitron.userInterface.openPanel();">Gestion des cookies</a>
+
+
 Change Log:
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
+= 1.0.5 =
 
-= 1.0.2 =
+* Update:
+    * Add anonymize Ip
+    * Add Google Analytics (gtag.js)
+
+
+= 1.0.4 =
 
 * Added: 
     * Add vimeo ereg
 
 
-= 1.0.2 =
+= 1.0.3 =
 * Fixed:
     * bug youtube
 
@@ -31,8 +42,6 @@ Change Log:
 = version =
 
 * Update:
-    * 
-
 * Fixed:
 * New:  
 * Added: 

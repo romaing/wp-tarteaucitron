@@ -1,7 +1,7 @@
 wp-tarteaucitron
 ================
 
-WP tarteaucitron wordpress plugin for cookie management  (demo http://www.vianova-systems.com/)
+WP tarteaucitron wordpress plugin for cookie management
 
 Comply to the european cookie law is simple with the french *tarte au citron*.
 The plugin allows to integrate the javascript tarteaucitron.js in wordpress proposing an admin interface and management in front site. The plugin allows you to choose the cookies that you propose to your users
@@ -22,77 +22,70 @@ Bonus:
 
 ## Supported services
 * Advertising network
-  * todo
-    * ~~Amazon~~
-    * ~~Clicmanager~~
-    * ~~Criteo~~
-    * ~~FERank (pub)~~
-    * ~~Google Adsense~~
-    * ~~Google Adsense Search (form)~~
-    * ~~Google Adsense Search (result)~~
-    * ~~Google Adwords (conversion)~~
-    * ~~Google Adwords (remarketing)~~
-    * ~~Pubdirecte~~
-    * ~~Twenga~~
-    * ~~vShop~~
+  * ~~Amazon~~
+  * ~~Clicmanager~~
+  * ~~Criteo~~
+  * ~~FERank (pub)~~
+  * ~~Google Adsense~~
+  * ~~Google Adsense Search (form)~~
+  * ~~Google Adsense Search (result)~~
+  * ~~Google Adwords (conversion)~~
+  * ~~Google Adwords (remarketing)~~
+  * ~~Pubdirecte~~
+  * ~~Twenga~~
+  * ~~vShop~~
 
 * APIs
-  * todo
-    * ~~Google jsapi~~
-    * ~~Google Maps~~
-    * ~~Google Tag Manager~~
-    * ~~Timeline JS~~
-    * ~~Typekit (adobe)~~
+  * ~~Google jsapi~~
+  * ~~Google Maps~~
+  * ~~Google Tag Manager~~
+  * ~~Timeline JS~~
+  * ~~Typekit (adobe)~~
 
 * Audience measurement
+  * ~~Alexa~~
+  * ~~Clicky~~
+  * ~~Crazyegg~~
+  * ~~FERank~~
+  * ~~Get+~~
   * Google Analytics (ga.js)
   * Google Analytics (universal)
-  * todo
-    * ~~Alexa~~
-    * ~~Clicky~~
-    * ~~Crazyegg~~
-    * ~~FERank~~
-    * ~~Get+~~
-    * ~~StatCounter~~
-    * ~~VisualRevenue~~
-    * ~~Xiti~~
+  * ~~StatCounter~~
+  * ~~VisualRevenue~~
+  * ~~Xiti~~
 
 * Comment
-  * todo
-    * ~~Disqus~~
-    * ~~Facebook (commentaire)~~
+  * ~~Disqus~~
+  * ~~Facebook (commentaire)~~
 
 * Social network
-  * todo
-    * ~~AddThis~~
-    * ~~AddToAny (feed)~~
-    * ~~AddToAny (share)~~
-    * ~~eKomi~~
-    * ~~Facebook~~
-    * ~~Facebook (like box)~~
-    * ~~Google+~~
-    * ~~Google+ (badge)~~
-    * ~~Linkedin~~
-    * ~~Pinterest~~
-    * ~~Shareaholic~~
-    * ~~ShareThis~~
-    * ~~Twitter~~
-    * ~~Twitter (cards)~~
-    * ~~Twitter (timelines)~~
+  * ~~AddThis~~
+  * ~~AddToAny (feed)~~
+  * ~~AddToAny (share)~~
+  * ~~eKomi~~
+  * ~~Facebook~~
+  * ~~Facebook (like box)~~
+  * ~~Google+~~
+  * ~~Google+ (badge)~~
+  * ~~Linkedin~~
+  * ~~Pinterest~~
+  * ~~Shareaholic~~
+  * ~~ShareThis~~
+  * ~~Twitter~~
+  * ~~Twitter (cards)~~
+  * ~~Twitter (timelines)~~
 
 * Support
-  * todo
-    * ~~UserVoice~~
-    * ~~Zopim~~
+  * ~~UserVoice~~
+  * ~~Zopim~~
 
 * Video
+  * ~~Calameo~~
+  * ~~Dailymotion~~
+  * ~~Prezi~~
+  * ~~SlideShare~~
   * Vimeo
   * Youtube
-  * todo
-    * ~~Calameo~~
-    * ~~Dailymotion~~
-    * ~~Prezi~~
-    * ~~SlideShare~~
 
 **Services "barred" are not yet supported by this Wordpress plugin
 
