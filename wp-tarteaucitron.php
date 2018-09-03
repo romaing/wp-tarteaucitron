@@ -32,19 +32,20 @@ require(WP_TAC_PATH . '/admin.php');
  * CSS et Javascript
  */
 function wp_tac_user_css_js() {
-	wp_register_style('wp_tac', plugins_url('wp-tarteaucitron/css/user.css'));
+	wp_register_style('wp_tac', plugins_url('wp-tarteaucitron/css/user.css', __FILE__));
     wp_enqueue_style( 'wp_tac');
-	wp_enqueue_script( 'wp_tac', plugins_url('wp-tarteaucitron/tarteaucitron/tarteaucitron.js'), '', '', TRUE );
+	wp_enqueue_script( 'wp_tac', plugins_url('wp-tarteaucitron/tarteaucitron/tarteaucitron.js', __FILE__), '', '', TRUE );
 }
 add_action('wp_enqueue_scripts', 'wp_tac_user_css_js');
 /**
  * CSS et Javascript
  */
 function tac_admin_css() {
-    wp_enqueue_script('switchButton', "http://olance.github.io/jQuery-switchButton/jquery.switchButton.js", '', '', TRUE );
-	wp_register_style('tac', plugins_url('wp-tarteaucitron/css/admin.css'));
+
+    wp_enqueue_script('switchButton', "wp-tarteaucitron/js/Query-switchButton/jquery.switchButton.js", '', '', TRUE );
+	wp_register_style('tac', plugins_url('wp-tarteaucitron/css/admin.css', __FILE__));
     wp_enqueue_style('tac');
-    wp_enqueue_script('tac', plugins_url('wp-tarteaucitron/js/admin.js'));
+    wp_enqueue_script('tac', plugins_url('wp-tarteaucitron/js/admin.js', __FILE__));
 }
 add_action('admin_enqueue_scripts', 'tac_admin_css');
 
