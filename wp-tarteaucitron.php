@@ -42,7 +42,7 @@ add_action('wp_enqueue_scripts', 'wp_tac_user_css_js');
  */
 function tac_admin_css() {
 
-    wp_enqueue_script('switchButton', "wp-tarteaucitron/js/Query-switchButton/jquery.switchButton.js", '', '', TRUE );
+    wp_enqueue_script('switchButton', "wp-tarteaucitron/js/jquery.switchButton.js", '', '', TRUE );
 	wp_register_style('tac', plugins_url('wp-tarteaucitron/css/admin.css', __FILE__));
     wp_enqueue_style('tac');
     wp_enqueue_script('tac', plugins_url('wp-tarteaucitron/js/admin.js', __FILE__));
